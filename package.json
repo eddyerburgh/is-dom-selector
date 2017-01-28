@@ -1,0 +1,11 @@
+{
+  "name": "is-css-selector",
+  "version": "1.0.0",
+  "description": "Validate if a string is a CSS selector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
