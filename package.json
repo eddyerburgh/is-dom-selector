@@ -1,11 +1,19 @@
 {
-  "name": "is-css-selector",
+ "name": "is-css-selector",
   "version": "1.0.0",
   "description": "Validate if a string is a CSS selector",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+   "lint:fix": "eslint index.js --fix",
+   "test":"npm run lint:fix"
+ },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "tape": "^4.6.3"
+  }
 }
