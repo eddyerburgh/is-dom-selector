@@ -4,8 +4,9 @@
   "description": "Validate if a string is a CSS selector",
   "main": "index.js",
   "scripts": {
-   "lint:fix": "eslint index.js --fix",
-   "test":"npm run lint:fix"
+   "lint:fix": "eslint lib --fix",
+   "test":"npm run lint:fix && npm run test:unit",
+    "test:unit": "tape test/**/*.spec.js"
  },
   "author": "",
   "license": "ISC",
