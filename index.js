@@ -1,3 +1,3 @@
-var isCssSelector = require('./lib/isCssSelector')
+var isDomSelector = require('./lib/isDomSelector')
 
-module.exports = isCssSelector
+module.exports = isDomSelector

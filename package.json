@@ -1,7 +1,7 @@
 {
- "name": "is-css-selector",
+ "name": "is-dom-selector",
  "version": "1.0.0",
- "description": "Validate if a string is a CSS selector",
+ "description": "Validate if a string is a DOM selector",
  "main": "index.js",
  "scripts": {
   "lint:fix": "eslint lib --fix",
@@ -9,16 +9,14 @@
   "test:unit": "tape -r ./test/.setup test/**/*.spec.js | tap-spec"
  },
  "author": "Edd Yerburgh",
- "license": "ISC",
+ "license": "MIT",
  "devDependencies": {
-  "colortape": "^0.1.2",
   "eslint": "^3.14.1",
   "eslint-config-standard": "^6.2.1",
   "eslint-plugin-promise": "^3.4.0",
   "eslint-plugin-standard": "^2.0.1",
   "jsdom": "^9.9.1",
   "tap-spec": "^4.1.1",
-  "tap-summary": "^3.0.1",
   "tape": "^4.6.3"
  }
 }
