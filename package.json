@@ -1,6 +1,6 @@
 {
   "name": "is-dom-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate if a string is a DOM selector",
   "main": "index.js",
   "scripts": {
