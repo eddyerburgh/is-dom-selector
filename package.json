@@ -1,22 +1,31 @@
 {
- "name": "is-dom-selector",
- "version": "1.0.0",
- "description": "Validate if a string is a DOM selector",
- "main": "index.js",
- "scripts": {
-  "lint:fix": "eslint lib --fix",
-  "test": "npm run lint:fix && npm run test:unit",
-  "test:unit": "tape -r ./test/.setup test/**/*.spec.js | tap-spec"
- },
- "author": "Edd Yerburgh",
- "license": "MIT",
- "devDependencies": {
-  "eslint": "^3.14.1",
-  "eslint-config-standard": "^6.2.1",
-  "eslint-plugin-promise": "^3.4.0",
-  "eslint-plugin-standard": "^2.0.1",
-  "jsdom": "^9.9.1",
-  "tap-spec": "^4.1.1",
-  "tape": "^4.6.3"
- }
+  "name": "is-dom-selector",
+  "version": "1.0.0",
+  "description": "Validate if a string is a DOM selector",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "eslint lib --fix",
+    "test": "npm run lint:fix && npm run test:unit",
+    "test:unit": "tape -r ./test/.setup test/**/*.spec.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eddyerburgh/is-dom-selector.git"
+  },
+  "keywords": [
+    "valid selector",
+    "validate dom selector",
+    "validate css selector"
+  ],
+  "author": "Edd Yerburgh",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "jsdom": "^9.9.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
 }
