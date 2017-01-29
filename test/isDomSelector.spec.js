@@ -25,6 +25,18 @@ test('isDomSelector returns true if passed an string with an attribute selector'
   t.equal(isDomSelector('[attribute="value"]'), true);
 });
 
+test('isDomSelector returns true if passed a string with multiple class selectors', (t) => {
+  t.plan(1);
+
+  t.equal(isDomSelector('.class .another-class'), true);
+});
+
+test('isDomSelector returns true if passed a string with multiple class selectors using a combinator', (t) => {
+  t.plan(1);
+
+  t.equal(isDomSelector('.class > .another-class'), true);
+});
+
 test('isDomSelector returns false if passed string that is not valid selector', (t) => {
   t.plan(1);
 
