@@ -1,4 +1,4 @@
-# is-dom-selector
+# is-dom-selector https://travis-ci.org/eddyerburgh/is-dom-selector.svg?branch=master
 
 Returns true if passed a valid DOM selector as a string.
 
