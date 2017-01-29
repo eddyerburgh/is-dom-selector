@@ -4,6 +4,10 @@ Returns true if passed a valid DOM selector as a string.
 
 ## Usage
 
+```
+npm install --save is-dom-selector
+```
+
 ```js
 import isDomSelector from 'is-dom-selector'
 
