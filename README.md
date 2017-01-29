@@ -1,4 +1,4 @@
-# is-dom-selector [![CircleCI](https://circleci.com/gh/eddyerburgh/is-dom-selector/tree/master.svg?style=svg)](https://circleci.com/gh/eddyerburgh/is-dom-selector/tree/master)
+# is-dom-selector [![CircleCI](https://circleci.com/gh/eddyerburgh/is-dom-selector/tree/master.svg?style=shield)](https://circleci.com/gh/eddyerburgh/is-dom-selector/tree/master)
 
 Returns true if passed a valid DOM selector as a string.
 
