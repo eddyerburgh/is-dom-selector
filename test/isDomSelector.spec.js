@@ -78,3 +78,11 @@ test('isDomSelector returns false when passed a string that is not valid selecto
 
   t.equal(isDomSelector('not $$ valid selector'), false);
 });
+
+test('isDomSelector throws an error if document is not available globally', (t) => {
+  t.plan(1);
+  const tempDoc = JSON.parse(JSON.stringify(document));
+  document = undefined;
+  t.throws(() => isDomSelector('#id'), /is-css-selector cannot access document. Are you running in a browser?/);
+  document = tempDoc
+});
